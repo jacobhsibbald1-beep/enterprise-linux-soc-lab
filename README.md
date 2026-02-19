@@ -8,8 +8,8 @@ This project documents a multi-server Ubuntu 24.04 homelab built in VirtualBox t
 # Virtualisation
 - Platform: Oracle VirtualBox
 - Network Segmentation:
-  - NAT adapter (internet access)
-  - Internal network (server-to-server communication)
+  - NAT adapter 
+  - Internal network 
 
 # Servers
 
