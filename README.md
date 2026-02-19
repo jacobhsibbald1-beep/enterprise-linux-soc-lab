@@ -62,3 +62,19 @@ Each issue required structured troubleshooting and environment-level problem sol
 
 Jacob Sibbald  
 Building enterprise-style infrastructure and detection labs for professional development.
+
+# Network Layout
+
+         Internet
+             |
+          (NAT)
+             |
+    ---------------------
+    |                   |
+ UBU-SRV           UBU-SOC
+    |
+ UBU-ATK
+    |
+ Internal Network (intnet-lab)
+
+- This lab uses an internal VirtualBox network for server-to-server communication, while NAT provides internet access for updates and package installation.
