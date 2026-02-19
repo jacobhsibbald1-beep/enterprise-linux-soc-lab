@@ -65,16 +65,16 @@ Building enterprise-style infrastructure and detection labs for professional dev
 
 # Network Layout
 
-         Internet
-             |
-          (NAT)
-             |
-    ---------------------
-    |                   |
- UBU-SRV           UBU-SOC
+            Internet
+                |
+              (NAT)
+                |
+    --------------------------------
+    |                              |
+  UBU-SRV                        UBU-SOC
     |
- UBU-ATK
+  UBU-ATK
     |
- Internal Network (intnet-lab)
+Internal Network
 
 - This lab uses an internal VirtualBox network for server-to-server communication, while NAT provides internet access for updates and package installation.
